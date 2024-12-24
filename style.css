@@ -29,7 +29,7 @@ ul {
   margin: auto;
 }
 
-/* Utility Classes */
+
 .btn {
   display: inline-block;
   padding: 15px 30px;
@@ -76,7 +76,7 @@ header {
   width: 80px;
   margin-left: 50px;
   align-items: center;
-
+  border-radius: 50%;
 }
 
 nav ul {
@@ -162,7 +162,7 @@ header * {
 
 #about .about-content p {
   margin-right: 7rem;
-  line-height: 1.6;
+  line-height: 1.8 ;
   color: #9a9a9a;
   font-weight: 500;
   margin-left: 75px;
@@ -189,12 +189,12 @@ body {
 
 }
 
-/* #gallery h2 {
+#gallery h2 {
   font-size: 40px;
   color: black;
   text-align: center;
   margin-bottom: 30px;
-} */
+}
 
 
 #gallery {
@@ -239,6 +239,12 @@ body {
   font-weight: bold;
   font-size: 30px;
   margin-top: 20px;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .contact a {
@@ -366,6 +372,7 @@ body {
 #contact .contact-info p {
   color: #9a9a9a;
   margin-bottom: 15px;
+  font-size: 25px;
 }
 
 #contact .contact-info p i {
